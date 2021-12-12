@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bitter', serif;
+    scroll-behavior: smooth;   
+}
+
+.footer{
+    border-top: 0.2vw solid #6e58f1;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+.infos h1{
+    color: #6e58f1;
+    font-size: 2vw;
+    margin-bottom: 10%;
+}
+.infos p{
+    margin-top: 5%;
+    font-size: 1.2vw;
+}
+
+.nom h1{
+    font-size: 3vw;
+    color: #6e58f1;
+}
+.nom p{
+    font-size: 1.5vw;
+}
+.nom img{
+    margin-top: 10%;
+    width: 3vw;
+    height: 3vw;
+}
+
+.pages{
+    display: flex;
+    flex-direction: column;
+}
+.pages h1{
+    color: #6e58f1;
+    font-size: 1.7vw;
+    margin-bottom: 15%;
+}
+.pages a{
+    color: black;
+    margin-top: 20%;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+.copyright{
+    width: 70%;
+    text-align: center;
+    border-top: 2px solid #6e58f1;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 15%;
+}
+.copyright p{
+    color: #6e58f1;
+    font-size: 1.2vw;
+    margin-bottom: 1%;
+}
+.copyright a{
+    font-size: 1.2vw;
+    color: #6e58f1;
+}

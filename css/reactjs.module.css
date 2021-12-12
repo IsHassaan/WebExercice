@@ -1,0 +1,86 @@
+
+.reactjs{
+    margin-top: 1.9%;
+    padding: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.reactjs_text{
+    margin-top: 10%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.reactjs_text h1{
+    font-size: 3vw;
+    color: #6e58f1;
+}
+.reactjs_text p, .home_text a{
+    font-size: 1.7vw;
+    margin-top: 5%;
+    color: rgb(165, 165, 165);
+}
+.reactjs_text a{
+    text-decoration: none;
+    border: 0.2vw solid #6e58f1;
+    color: #6e58f1;
+    border-radius: 2vw;
+    padding: 1%;
+    width: 30%;
+    text-align: center;
+}
+.reactjs_text a:hover{
+    background-color: #6e58f1;
+    border: 0.2vw solid white;
+    color: white;
+}
+.reactjs img{
+    width: 40vw;
+    height: 35vw;
+}
+.reactjs{
+    background-image: url('../assets/background9.png');
+    background-size: 100% 110%;
+    border-bottom: 0.2vw solid #6e58f1;
+}
+
+
+.why_react h1{
+    text-align: center;
+    font-size: 3vw;
+    color: #6e58f1;
+}
+.why_react{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.why_react_tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.tab{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+.tab p{
+    margin-top: 2%;
+    font-size: 1.2vw;
+    color: rgb(165, 165, 165);
+    width: 70%;
+}
+.tab h3{
+    font-size: 1.5vw;
+    color: black;
+}
+.tab img{
+    margin-bottom: 4%;
+    width: 5vw;
+    height: 5vw;
+}

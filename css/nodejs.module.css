@@ -1,0 +1,81 @@
+
+.reactjs{
+    margin-top: 1.9%;
+    padding: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.reactjs_text{
+    margin-top: 10%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.reactjs_text h1{
+    font-size: 3vw;
+    color: #6e58f1;
+}
+.reactjs_text p, .home_text a{
+    font-size: 1.7vw;
+    margin-top: 5%;
+    color: rgb(165, 165, 165);
+}
+.reactjs_text a{
+    text-decoration: none;
+    border: 0.2vw solid #6e58f1;
+    color: #6e58f1;
+    border-radius: 2vw;
+    padding: 1%;
+    width: 30%;
+    text-align: center;
+}
+.reactjs_text a:hover{
+    background-color: #6e58f1;
+    border: 0.2vw solid white;
+    color: white;
+}
+.reactjs img{
+    width: 40vw;
+    height: 35vw;
+}
+.reactjs{
+    background-image: url('../assets/background9.png');
+    background-size: 100% 110%;
+    border-bottom: 0.2vw solid #6e58f1;
+}
+
+
+.why_react{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    justify-content: space-evenly;
+}
+.why_react_text{
+    margin-left:5%;
+}
+.why_react_text h1{
+    font-size: 3vw;
+    color: #6e58f1;
+}
+.why_react_text li{
+    font-size: 1.5vw;
+    color: rgb(165, 165, 165);
+    margin-top: 5%;
+}
+.why_react_text{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.why_react img{
+    width: 15vw;
+    height: 10vw;
+}
+.why_react_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

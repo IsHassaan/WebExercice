@@ -1,0 +1,99 @@
+
+.services{
+    margin-top: 10%;
+}
+.services_home{
+    padding: 3%;
+    background-image:url("../assets/background7.png");
+    background-size: 100% 120%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.2vw solid #6e58f1;
+}
+.services_home img{
+    width: 40vw;
+    height: 35vw;
+    margin-left: 2%;
+}
+.main_text{
+    margin-top: 8%;
+    margin-right: 10%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.main_text p{
+    width: 80%;
+    font-size: 2vw;
+    color: rgb(165, 165, 165);
+}
+.main_text h1{
+    font-size: 2.5vw;
+    color: #6e58f1;
+}
+
+
+
+.services_tabs{
+    padding-top: 5%;
+}
+.services_tabs h1{
+    text-align: center;
+    font-size: 2.5vw;
+    color: #6e58f1;
+}
+.tabs{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 0.2vw solid #6e58f1;
+    width: 18%;
+    border-radius: 2vw;
+}
+.tabs h2{
+    font-size: 1.5vw;
+    margin-top: 10%;
+    color: #6e58f1;
+}
+.tabs p{
+    font-size: 1.2vw;
+    width: 60%;
+    margin-top: 15%;
+}
+.tabs a{
+    width: 50%;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    text-decoration: none;
+    font-size: 1.2vw;
+    border: 0.1vw solid white;
+    background-color: #6e58f1;
+    color: white;
+    border-radius: 1vw;
+    padding:0.5%;
+}
+.tabs a:hover{
+   background-color: #5b48c7;
+}
+.tabs:hover{
+    animation: Slide_Left 2s ease;
+}
+.all_tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2%;
+}
+
+@keyframes Slide_Left {
+    0%{
+        transform: translateY(0vw)
+    }
+    100%{
+        transform:translateY(1vw)
+    } 
+}

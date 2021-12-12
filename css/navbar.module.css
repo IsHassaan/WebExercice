@@ -1,0 +1,32 @@
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 1%;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+.navbar .link{
+    color:#6e58f1;
+}
+.navbar .home_link{
+    margin-right: 50%;
+    color:#6e58f1;
+}
+.navbar .link:hover{
+    border-bottom: 0.15vw solid #6e58f1;
+    transform: scale(1.2);
+}
+.contact_link{
+    background-color: #6e58f1;
+    color: white;
+    padding: 0.5%;
+    border-radius: 1vw;
+}
+.navbar .contact_link:hover{
+    transform: scale(1.2);
+}
