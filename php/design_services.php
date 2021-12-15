@@ -9,7 +9,7 @@
 </head>
 <body>
 <?php
-include 'navbar.php'
+include 'navbar.php' 
 ?>
 <div class="reactjs">
   <div class="reactjs_text">
